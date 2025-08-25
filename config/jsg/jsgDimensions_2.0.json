@@ -1,0 +1,74 @@
+{
+  "jsg:abydos": {
+    "name": "jsg:abydos",
+    "distance": 13,
+    "groups": [
+      "milkyway"
+    ],
+    "milkyWayOrigins": {
+      "jsg:aged": 4
+    },
+    "lightingBoltChance": 1.9999999494757503E-4,
+    "isBlackHoleDim": false
+  },
+  "ae2:spatial_storage": {
+    "name": "ae2:spatial_storage",
+    "distance": 13,
+    "groups": [],
+    "milkyWayOrigins": {},
+    "lightingBoltChance": 5.000000237487257E-4,
+    "isBlackHoleDim": false
+  },
+  "minecraft:overworld": {
+    "name": "minecraft:overworld",
+    "distance": 0,
+    "groups": [
+      "milkyway"
+    ],
+    "milkyWayOrigins": {},
+    "lightingBoltChance": 5.000000237487257E-4,
+    "isBlackHoleDim": false
+  },
+  "nuclearcraft:wasteland": {
+    "name": "nuclearcraft:wasteland",
+    "distance": 5,
+    "groups": [],
+    "milkyWayOrigins": {},
+    "lightingBoltChance": 5.000000237487257E-4,
+    "isBlackHoleDim": false
+  },
+  "ad_astra:moon": {
+    "name": "ad_astra:moon",
+    "distance": 3,
+    "groups": [
+      "milkyway"
+    ],
+    "milkyWayOrigins": {
+      "jsg:normal": 3
+    },
+    "lightingBoltChance": 0.0,
+    "isBlackHoleDim": false
+  },
+  "minecraft:the_nether": {
+    "name": "minecraft:the_nether",
+    "distance": 5,
+    "groups": [
+      "milkyway"
+    ],
+    "milkyWayOrigins": {
+      "jsg:normal": 2
+    },
+    "lightingBoltChance": 0.0,
+    "isBlackHoleDim": false
+  },
+  "minecraft:the_end": {
+    "name": "minecraft:the_end",
+    "distance": 10,
+    "groups": [],
+    "milkyWayOrigins": {
+      "jsg:normal": 1
+    },
+    "lightingBoltChance": 0.0,
+    "isBlackHoleDim": false
+  }
+}
