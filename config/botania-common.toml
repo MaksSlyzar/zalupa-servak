@@ -1,0 +1,74 @@
+#===============================
+# General Botania Settings
+#===============================
+chargeAnimation = false            
+# Disable the charge animation when an item is charging on top of a mana pool. Reduces client/server load.
+
+flowerBindingForceCheck = false    
+# Disable strict checking of flowers connecting to Mana Pools/Spreaders every tick. 
+# Reduces server TPS lag when using Mana weapons or multiple flowers.
+
+enderPickpocket = true             
+# Keep the ability for the Hand of Ender to pickpocket other players' Ender Chests.
+
+manaEnchanter = true               
+# Keep the Mana Enchanter functionality. Old items in the world remain intact.
+
+relics = true                      
+# Keep the Relic System (entries, drops, achievements). Old relics remain.
+
+invertMagnetRing = false           
+# Keep standard controls for the Ring of Magnetization.
+
+#===============================
+# Block Breaking Particles
+#===============================
+[blockBreakingParticles]
+enabled = false                     
+# Disable block breaking particles for flowers and other items. Improves server performance.
+
+toolEnabled = false                 
+# Disable block breaking particles from Terra Shatterer. Reduces TPS lag in high-level usage.
+
+#===============================
+# Mana Spreaders
+#===============================
+[manaSpreaders]
+silent = true                       
+# Disable mana spreader shooting sounds to reduce minor server/client load.
+
+traceTime = 20                       
+# Reduce how many ticks into the future Mana Spreaders predict burst paths.
+# Lower values improve server performance but may slightly affect distant targeting.
+
+#===============================
+# Harvest Levels
+#===============================
+[harvestLevels]
+weightLens = 2                      
+# Harvest level for Weight Lens (2 = iron level).
+
+boreLens = 3                        
+# Harvest level for Bore Lens (3 = diamond level).
+
+#===============================
+# Garden of Glass Settings
+#===============================
+[gardenOfGlass]
+spawnWithLexicon = true             
+# Start players with Lexica Botania in Garden of Glass worlds.
+
+islandScaleMultiplier = 8           
+# Multiplier for spacing islands in multiplayer Garden of Glass. 
+# Lower values may cause portal collisions; higher values maintain spacing.
+
+#===============================
+# Rannuncarpus Settings
+#===============================
+[rannuncarpus]
+itemBlacklist = []                  
+# List of item registry names ignored by Rannuncarpus when placing blocks.
+
+modBlacklist = ["storagedrawers"]   
+# List of mod names ignored by Rannuncarpus to prevent crashes.
+
